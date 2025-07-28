@@ -1,85 +1,90 @@
-# 🛤️ FAYA-TRACK
+# 🩺 FAYDA-TRACK
 
-> _"Track Your Journey. Prove Your Progress."_  
-> A digital platform that verifies informal learning, volunteer work, and self-taught experience — powered by Fayda ID.
+> _"Your Health. Your Records. Verified."_  
+> A trusted digital health tracking platform powered by Fayda ID — for everyday health journeys, informal care, and verified wellbeing documentation.
 
 ---
 
-## Contributors
-- Tsedeniya Abebe 
-- Girumsew Burka
-- Natinael Alemayew
+## 🤝 Contributors
+
+- **Tsedeniya Abebe**  
+- **Girumsew Burka**  
+- **Natinael Alemayew**
+
+---
 
 ## 📘 Overview
 
-**FAYA-TRACK** is a digital achievement verification platform built for Ethiopians who grow their skills through **non-traditional paths** like freelancing, online courses, volunteering, apprenticeships, and personal projects. Too often, these valuable experiences are **invisible** on formal applications or CVs.
+**FAYDA-HEALTHTRACK** is a digital platform that enables Ethiopian citizens to **log, track, and verify** their personal and informal health history — including everyday health events, community-based care, fitness routines, chronic illness monitoring, and verified vaccination or test records — all secured through **Fayda biometric ID**.
 
-FAYA-TRACK lets users **log, prove, and share** their journey — with **Fayda-powered identity verification** for credibility and trust.
+It helps users take ownership of their health journey while giving care providers, NGOs, or institutions **real-time, secure access to verified records**, when permitted.
 
 ---
 
 ## 🔍 Problem Statement
 
-Many young Ethiopians develop skills and experience **outside of formal institutions**, but lack a way to:
+In Ethiopia, most people do not have access to consistent medical records or formal documentation of their health journey, due to:
 
-- 📄 Record and organize their progress  
-- ✅ Get their efforts verified by mentors or partners  
-- 💼 Present informal experience in job or scholarship applications  
-- 🔐 Secure their data under a trusted national ID  
+- 📝 Informal care or community-based treatment
+- 📁 Paper-based records that are easy to lose
+- ❌ No unified system to prove fitness, vaccination, or chronic illness history
+- ⛔ No trusted way to verify informal health-related activities (e.g., personal wellness logs, maternal checkups, fitness plans)
 
-As a result, much of their potential is overlooked — by employers, universities, and funders.
+This creates gaps in care, delays in services, and limits access to insurance, jobs, or scholarships that require verified health history.
 
 ---
 
 ## 💡 Our Solution
 
-FAYA-TRACK offers a secure and simple way to:
+**FAYDA-HEALTHTRACK** offers a **simple and secure** way to:
 
-- 🪪 Log in using **Fayda ID**  
-- 🛠️ Track learning journeys, freelance work, volunteer activity, and projects  
-- 🧾 Upload evidence (files, links, screenshots, testimonials)  
-- 🙌 Get verified by mentors, employers, clients, or NGOs  
-- 📝 Auto-generate a **smart CV** or **achievement portfolio**  
-- 🔎 Use AI tools to find skill gaps and recommended next steps  
-- 🔗 Share profiles via **QR code** or **custom link**
+- 🪪 Log in with **Fayda Digital ID**
+- 🩺 Record informal health activities and care episodes
+- 💊 Track chronic conditions, medication, and checkups
+- 🧾 Upload health-related evidence (clinic cards, reports, photos)
+- ✅ Allow NGOs, community workers, or clinics to verify care
+- 📤 Generate **verified health summaries** (for school, jobs, travel, etc.)
+- 🔗 Share via secure **QR codes** or **permission-based links**
+- 📊 Use AI to spot patterns, suggest prevention tips, or highlight missing records
 
 ---
 
 ## 🎯 Target Users
 
-- Grade 12 graduates not in college
-- Self-taught individuals and online learners
-- Freelancers, volunteers, or informal workers
-- Bootcamp or Telegram learners
-- Rural youth building community skills
+- Rural and urban citizens receiving informal care  
+- Maternal and child health participants  
+- People with chronic illnesses (e.g., diabetes, epilepsy)  
+- Fitness-conscious individuals tracking health goals  
+- Community health agents and NGO-supported households  
+- Youth applying for scholarships or travel requiring health clearance
 
 ---
 
 ## 🔐 Role of Fayda
 
-Fayda ensures that every FAYA-TRACK profile is:
+Fayda powers the **identity and trust layer**:
 
-- Biometrically verified  
-- Unique and tamper-proof  
-- Legally and socially trusted  
-- Ready for future fintech or gov-tech use cases  
+- Verifies every user through biometric Fayda ID  
+- Secures health records to a unique individual  
+- Ensures records are tamper-proof, traceable, and confidential  
+- Enables consent-based access to clinics, NGOs, and employers
 
-We integrate with Fayda using **OIDC (OpenID Connect)** to enable secure, compliant authentication.
+Fayda integration is built using **OIDC (OpenID Connect)**.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer            | Technology                                  |
-|------------------|----------------------------------------------|
-| Frontend         | React / Next.js / Tailwind CSS               |
-| Backend          | Node.js / Express                            |
-| Database         | MongoDB Atlas                                |
-| Auth             | Fayda OIDC (mocked for now)                  |
-| File Upload      | Firebase / AWS S3                            |
-| AI Engine        | OpenAI / Local ML (skill gap recommender)    |
-| Deployment       | Vercel (frontend) + Render / Railway (API)   |
-| Others           | QR Generator, PDF Generator, Markdown Viewer |
+| Layer            | Technology                                   |
+|------------------|-----------------------------------------------|
+| Frontend         | React / Next.js / Tailwind CSS                |
+| Backend          | Node.js / Express                             |
+| Database         | MongoDB Atlas                                 |
+| Auth             | Fayda OIDC (mocked for now)                   |
+| File Upload      | Firebase / AWS S3                             |
+| AI Engine        | GPT / Local ML (risk detection, prevention tips) |
+| Deployment       | Vercel (frontend) + Render / Railway (backend)|
+| Extras           | QR Code Generator, PDF Summary Generator      |
 
 ---
 
