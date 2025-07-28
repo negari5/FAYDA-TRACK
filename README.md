@@ -1,59 +1,85 @@
-# 🌍 FAYDA-TRACK
+# 🛤️ FAYA-TRACK
 
 > _"Track Your Journey. Prove Your Progress."_  
-> A digital achievement verification platform for informal learning, volunteering, and personal development in Ethiopia — powered by Fayda biometric ID.
+> A digital platform that verifies informal learning, volunteer work, and self-taught experience — powered by Fayda ID.
 
 ---
 
-## 📌 Overview
+## Contributors
+- Tsedeniya Abebe 
+- Girumsew Burka
+- Natinael Alemayew
 
-**FAYA-TRACK** is a secure, inclusive platform that empowers Ethiopian youth to track, validate, and showcase their informal learning and non-traditional achievements. Whether you're a self-taught programmer, a volunteer, a freelancer, or someone learning through online resources — FAYA-TRACK helps you **prove your progress**.
+## 📘 Overview
 
-Built to integrate with **Fayda** (Ethiopia's national digital ID), FAYA-TRACK makes your personal and professional growth **verifiable, visible, and valuable**.
+**FAYA-TRACK** is a digital achievement verification platform built for Ethiopians who grow their skills through **non-traditional paths** like freelancing, online courses, volunteering, apprenticeships, and personal projects. Too often, these valuable experiences are **invisible** on formal applications or CVs.
 
----
-
-## 🚀 Features
-
-- 🔐 **Biometric Identity Integration** (via Fayda ID)
-- 📚 **Achievement Logging** (volunteering, freelancing, courses, personal projects, etc.)
-- ✅ **Verifier Portal** for endorsements from mentors, NGOs, or clients
-- 📄 **Smart CV & Digital Portfolio Generator**
-- 🏅 **Badge & Certificate Issuance**
-- 🧠 **AI-Based Skill Gap Analyzer**
-- 📊 **Progress Dashboard**
+FAYA-TRACK lets users **log, prove, and share** their journey — with **Fayda-powered identity verification** for credibility and trust.
 
 ---
 
-## 👥 Target Users
+## 🔍 Problem Statement
 
-- Grade 12 graduates not enrolled in college
-- Self-taught individuals and informal learners
-- Freelancers and early job seekers
-- NGO/community project volunteers
-- Youth in rural and underserved areas
+Many young Ethiopians develop skills and experience **outside of formal institutions**, but lack a way to:
 
----
+- 📄 Record and organize their progress  
+- ✅ Get their efforts verified by mentors or partners  
+- 💼 Present informal experience in job or scholarship applications  
+- 🔐 Secure their data under a trusted national ID  
 
-## 🎯 Project Goals
-
-- Promote **equity and recognition** for informal experiences
-- Enable **trusted verification** of non-traditional achievements
-- Help youth build credible **digital portfolios**
-- Connect learning with **employability and opportunity**
+As a result, much of their potential is overlooked — by employers, universities, and funders.
 
 ---
 
-## 🛠️ Tech Stack (Suggested)
+## 💡 Our Solution
 
-| Layer            | Technology                                |
-|------------------|--------------------------------------------|
-| Frontend         | React / Next.js / Tailwind CSS             |
-| Backend          | Node.js / Express / Django                 |
-| Database         | PostgreSQL / MongoDB                       |
-| Auth Integration | Fayda ID SDK / NID API (mocked for dev)   |
-| AI Features      | GPT-based Skill Recommender (optional)     |
-| Deployment       | Vercel / Heroku / Docker / AWS             |
+FAYA-TRACK offers a secure and simple way to:
+
+- 🪪 Log in using **Fayda ID**  
+- 🛠️ Track learning journeys, freelance work, volunteer activity, and projects  
+- 🧾 Upload evidence (files, links, screenshots, testimonials)  
+- 🙌 Get verified by mentors, employers, clients, or NGOs  
+- 📝 Auto-generate a **smart CV** or **achievement portfolio**  
+- 🔎 Use AI tools to find skill gaps and recommended next steps  
+- 🔗 Share profiles via **QR code** or **custom link**
+
+---
+
+## 🎯 Target Users
+
+- Grade 12 graduates not in college
+- Self-taught individuals and online learners
+- Freelancers, volunteers, or informal workers
+- Bootcamp or Telegram learners
+- Rural youth building community skills
+
+---
+
+## 🔐 Role of Fayda
+
+Fayda ensures that every FAYA-TRACK profile is:
+
+- Biometrically verified  
+- Unique and tamper-proof  
+- Legally and socially trusted  
+- Ready for future fintech or gov-tech use cases  
+
+We integrate with Fayda using **OIDC (OpenID Connect)** to enable secure, compliant authentication.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer            | Technology                                  |
+|------------------|----------------------------------------------|
+| Frontend         | React / Next.js / Tailwind CSS               |
+| Backend          | Node.js / Express                            |
+| Database         | MongoDB Atlas                                |
+| Auth             | Fayda OIDC (mocked for now)                  |
+| File Upload      | Firebase / AWS S3                            |
+| AI Engine        | OpenAI / Local ML (skill gap recommender)    |
+| Deployment       | Vercel (frontend) + Render / Railway (API)   |
+| Others           | QR Generator, PDF Generator, Markdown Viewer |
 
 ---
 
